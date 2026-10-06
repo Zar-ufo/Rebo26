@@ -7,3 +7,9 @@
   command = "npm run dev"
   targetPort = 3000
   publish = "dist"
+
+[[redirects]]
+  from = "/"
+  to = "https://rebo26.netlify.app/app"
+  status = 301
+  force = true

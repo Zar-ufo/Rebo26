@@ -18,7 +18,6 @@ import StatsViewer from './components/StatsViewer';
 import AnalysisViewer from './components/AnalysisViewer';
 import ChatBox from './components/ChatBox';
 import { UserManual } from './components/UserManual';
-import DownloadPage from './components/DownloadPage';
 
 function ResearchApp() {
   const [darkMode, setDarkMode] = useState(true);
@@ -487,6 +486,6 @@ function isPackagedApp() {
 export default function App() {
   const path = window.location.pathname.replace(/\/+$/, '');
   if (path === '/app' || isPackagedApp()) return <ResearchApp />;
-  if (window.location.pathname !== '/') window.history.replaceState(null, '', '/');
-  return <DownloadPage />;
+  window.location.replace('https://rebo26.netlify.app/app');
+  return null;
 }

@@ -21,13 +21,13 @@ View your app in AI Studio: https://ai.studio/apps/3e3a511c-b837-433f-b4d6-fe45b
 
 ## Install Rebo as an app
 
-The website homepage is the Rebo install page. Open `/app` to use the research workspace directly in a browser, or install it from the browser menu to get a standalone app window and launcher icon.
+The website homepage redirects to `/app`, which is the Rebo research workspace. You can also install it from the browser menu to get a standalone app window and launcher icon.
 
 - **Windows:** Download and run `release/Rebo-Setup.exe`, or use Microsoft Edge/Chrome to install the browser app.
 - **Android:** Install `release/Rebo-Android.apk` (allow your file manager/browser to install apps if asked), or add the browser app from Chrome.
 - Serve the deployed site over **HTTPS** for browser installation and service-worker caching. AI features still need an internet connection.
 
-The native wrappers open the hosted app at `https://rebo-26.vercel.app/?native=1`; that query parameter keeps them pointed at the research workspace even while the homepage is the download page. They require internet access.
+The native wrappers open the hosted app at `https://rebo-26.vercel.app/?native=1`; they require internet access.
 
 ### Build native apps
 

@@ -10,6 +10,6 @@
 
 [[redirects]]
   from = "/"
-  to = "https://rebo26.netlify.app/app"
+  to = "/app"
   status = 301
   force = true

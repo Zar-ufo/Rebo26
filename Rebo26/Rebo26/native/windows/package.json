@@ -1,0 +1,38 @@
+{
+  "name": "rebo-desktop",
+  "version": "1.0.0",
+  "description": "Rebo AI research app for Windows.",
+  "author": "Rebo",
+  "main": "main.cjs",
+  "private": true,
+  "build": {
+    "appId": "com.rebo.research",
+    "productName": "Rebo",
+    "directories": {
+      "output": "../../release"
+    },
+    "files": [
+      "main.cjs"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "Rebo-Setup.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  },
+  "devDependencies": {
+    "electron": "^44.5.1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "rebo",
+  "description": "A premium AI-powered research assistant for managing projects, analyzing files (Excel, CSV, PDF, DOCX, TXT), extracting tables, computing statistics, generating reports, and interactive project-specific chats.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

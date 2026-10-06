@@ -1,0 +1,22 @@
+{
+  "id": "/app",
+  "name": "Rebo — AI Research Advisor",
+  "short_name": "Rebo",
+  "description": "Your AI-powered research workspace, installed as an app.",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#090b13",
+  "theme_color": "#090b13",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/rebo-icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

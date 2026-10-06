@@ -1,0 +1,18 @@
+node_modules/
+build/
+dist/
+/release/*
+!/release/
+!/release/README.md
+!/release/Rebo26 Setup 1.0.0.exe
+android/
+ios/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Local Netlify folder
+.netlify
+.env

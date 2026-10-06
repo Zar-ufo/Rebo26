@@ -3,7 +3,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "https://rebo26.netlify.app/app",
+      "destination": "/app",
       "permanent": true
     }
   ],

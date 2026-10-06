@@ -486,6 +486,6 @@ function isPackagedApp() {
 export default function App() {
   const path = window.location.pathname.replace(/\/+$/, '');
   if (path === '/app' || isPackagedApp()) return <ResearchApp />;
-  window.location.replace('https://rebo26.netlify.app/app');
+  window.location.replace('/app');
   return null;
 }
